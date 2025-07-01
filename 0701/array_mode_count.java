@@ -31,3 +31,10 @@ public class array_mode_count {
         System.out.println("眾數為：" + mode + "，出現 " + maxCount + " 次");
     }
 }
+/*外層迴圈 n 次，內層也 n 次 → 總共比較次數為 n × n。
+
+時間複雜度為 O(n²)。
+
+此作法在資料量大時效率較差。
+
+*/

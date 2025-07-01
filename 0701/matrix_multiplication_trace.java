@@ -37,3 +37,11 @@ public class matrix_multiplication_trace {
         }
     }
 }
+/*
+         * 演算法時間複雜度說明：
+         * 對於兩個 n x n 的矩陣相乘，必須使用三層迴圈：
+         * - 外層 i 走訪每列：n 次
+         * - 中層 j 走訪每行：n 次
+         * - 內層 k 逐項計算乘積並加總：n 次
+         * 總計為 n * n * n = O(n³)
+         */
