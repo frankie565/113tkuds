@@ -26,7 +26,7 @@ public class q5matrixmul {
                 int sum = 0;
                 for (int k = 0; k < n; k++) {  
                     sum += A[i][k] * B[k][j];
-                    ops += 2; 
+                    ops ++; 
                 }
                 C[i][j] = sum;
             }

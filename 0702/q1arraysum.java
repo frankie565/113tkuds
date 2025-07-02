@@ -5,14 +5,17 @@ public class q1arraysum {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-
+        int[] arr = new int[n];
         int sum = 0;
+        int ops = 0;
+
         for (int i = 0; i < n; i++) {
-            int num = sc.nextInt();
-            sum += num;
+            arr[i] = sc.nextInt();
+            sum += arr[i];
+            ops++;  
         }
 
         System.out.println(sum);
-        System.out.println(n - 1); 
+        System.out.println(ops);
     }
 }
