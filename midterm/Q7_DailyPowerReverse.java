@@ -5,12 +5,12 @@ public class Q7_DailyPowerReverse {
         Scanner sc = new Scanner(System.in);
         int[] a = new int[7];
 
-        // 輸入 7 個整數
+        
         for (int i = 0; i < 7; i++) {
             a[i] = sc.nextInt();
         }
 
-        // 原地反轉（用雙指標）
+       
         int left = 0, right = 6;
         while (left < right) {
             int temp = a[left];
@@ -20,7 +20,7 @@ public class Q7_DailyPowerReverse {
             right--;
         }
 
-        // 輸出
+        
         for (int i = 0; i < 7; i++) {
             System.out.print(a[i]);
             if (i < 6) System.out.print(" ");

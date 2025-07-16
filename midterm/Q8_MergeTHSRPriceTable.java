@@ -6,12 +6,12 @@ public class Q8_MergeTHSRPriceTable {
         int n = Integer.parseInt(sc.nextLine());
 
         String[] station = new String[n];
-        int[][] price = new int[n][2]; // [i][0]=standard, [i][1]=business
+        int[][] price = new int[n][2]; 
 
         for (int i = 0; i < n; i++) {
-            station[i] = sc.next();            // 站名
-            price[i][0] = sc.nextInt();        // 標準票價
-            price[i][1] = sc.nextInt();        // 商務票價
+            station[i] = sc.next();           
+            price[i][0] = sc.nextInt();        
+            price[i][1] = sc.nextInt();        
         }
 
         // 表頭

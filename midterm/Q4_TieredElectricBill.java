@@ -54,3 +54,10 @@ public class Q4_TieredElectricBill {
  * Time Complexity: O(n)
  * 說明：每戶電費可在常數時間內計算，總共 n 戶。
  */
+
+ /**
+ * 級距式電費試算實作
+ * 時間複雜度：O(n)
+ * 空間複雜度：O(1)
+ * 穩定性：不適用（非排序演算法）
+ */
